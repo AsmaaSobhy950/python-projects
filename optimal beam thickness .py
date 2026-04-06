@@ -6,7 +6,7 @@ Safety factor = 2"""
 import numpy as np
 
 # Given data
-load =int(input("please enter the load in kg:"))  * 1000  # N
+load =int(input("please enter the load in N:"))  * 1000  # N
 length = int(input("please enter the length in m:"))  # m
 yield_strength = 250 * 10**6  # Pa
 safety_factor = 2
